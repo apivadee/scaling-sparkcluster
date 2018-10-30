@@ -1,12 +1,9 @@
 from __future__ import division
-
 import argparse
 import os
 import sys
-
 import matplotlib.animation as animation
 import matplotlib.pyplot as plt
-
 from spark_cluster import SparkCluster
 from dqn_agent import DQNAgent
 
@@ -17,7 +14,6 @@ if __name__ == "__main__":
     agent = DQNAgent(env.enable_actions, env.name)
     agent.load_model("kitwai_models/spark")
 
-    # variables
     file = open("../data_stream/historical_data/data/current.csv","r")
     next(file)
     rewards = []

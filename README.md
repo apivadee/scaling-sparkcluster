@@ -1,16 +1,15 @@
-# Auto-scaling on Apache Spark using Deep Reinforcement Learning
+# Auto-Scaling on Apache Spark using Deep Reinforcement Learning
 
 ## Directory structure
 ```
---|
-  |-- dqn_agent.py
-  |-- model.py 
-  |-- server.py
-  |-- spark_cluster.py
-  |-- test.py
-  |-- train.py
-  |-- train_set.sh
-  |-- kitwai-models
+--|-- dqn_agent.py                          # Deep Q-Network agent
+  |-- model.py                              # Deep Reinforcement Learning model application
+  |-- server.py                             # Monitor Deep Reinforcement Learning model server
+  |-- spark_cluster.py                      # Deep Q-Network environment on Apache Spark cluster
+  |-- test.py                               # Deep Reinforcement Learning model inference
+  |-- train.py                              # Deep Reinforcement Learning model training
+  |-- train_set.sh                          # Training set script with constraints
+  |-- kitwai-models                         # Pre-trained model
       |-- checkpoint
       |-- spark.data-00000-of-00001
       |-- spark.index
