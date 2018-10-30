@@ -16,7 +16,7 @@
       |-- spark.meta
 ```
 ### System Architecture
-![System Architecture](https://github.com/Kundjanasith/scaling-sparkcluster/blob/master/images/system_engine.png)
+![System Architecture](/images/system_engine.png)
 
 ### There are 2 Docker containers
 * [Docker container on Apache Spark cluster](https://hub.docker.com/r/kundjanasith/kitwai_engine/)
