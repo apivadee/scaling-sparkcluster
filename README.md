@@ -17,6 +17,10 @@
 ```
 ### System Architecture
 ![System Architecture](/images/system_engine.png)
+Variable | Description
+------------ | -------------
+m<sup>a</sup> | Memory usage when Apache Spark operate action
+Content column 1 | Content column 2
 
 ### There are 2 Docker containers
 * [Docker container on Apache Spark cluster](https://hub.docker.com/r/kundjanasith/kitwai_engine/)
