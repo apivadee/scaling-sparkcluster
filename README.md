@@ -1,6 +1,6 @@
-# Auto-Scaling on Apache Spark using Deep Reinforcement Learning
+## Auto-Scaling on Apache Spark using Deep Reinforcement Learning
 
-## Directory structure
+### Directory structure
 ```
 --|-- dqn_agent.py                          # Deep Q-Network agent
   |-- model.py                              # Deep Reinforcement Learning model application
@@ -15,7 +15,9 @@
       |-- spark.index
       |-- spark.meta
 ```
+### System Architecture
+![System Architecture](/images/system_engine.png)
 
-## There are 2 Docker containers
+### There are 2 Docker containers
 * [Docker container on Apache Spark cluster](https://hub.docker.com/r/kundjanasith/kitwai_engine/)
 * [Docker container on Cluster management node](https://hub.docker.com/r/kundjanasith/kitwai_webui/)
