@@ -17,6 +17,7 @@
 ```
 ### System Architecture
 ![System Architecture](/images/system_engine.png)
+
 Variable | Description
 -------- | -----------
 m<sup>a</sup> | Memory usage when Apache Spark operate action
