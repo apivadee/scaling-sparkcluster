@@ -31,6 +31,45 @@ y             | The scaling number of worker nodes
 A<sup>i</sup><sub>y</sub> | Action to scale in with y worker nodes
 A<sup>o</sup><sub>y</sub> | Action to scale out with y worker nodes
 
+### Features
+No. | Feature | Description
+--- | ------- | -----------
+01 | SparkContext | Apache Spark framework metadata
+02 | SecurityManager | Authentication & Permission 
+03 | Utils | SparkDriver port 
+04 | SparkEnv | Register directory
+05 | BlockManagerMasterEndpoint | Register block
+06 | DiskBlockManager | Create local /tmp
+07 | MemoryStore | Memory usage when Apache Spark operate action
+08 | Log | Initial Apache Spark Logging
+09 | Server | Apache Spark server [ jetty ]
+10 | AbstractConnector | Start Server Connector
+11 | ContextHandler | Apache Spark job state
+12 | SparkUI | Spark UI URL
+13 | StandaloneAppClient | Master node URL
+14 | TransportClient | Master node connection
+15 | StandaloneScheduler | RegisteredResourcesRatio scheduler 
+16 | NettyBlockTransferService | Initial Netty service
+17 | BlockManager | Initial Resilient Distributed Datasets
+18 | BlockManagerMaster | Register BlockManager ID
+19 | EventLoggingListener | Create server /tmp
+20 | BlockManagerInfo | Memory usage when Apache Spark operate transformation
+21 | FileInputFormat | Input file path and format
+22 | CoarseGrainedSchedulerBackend | Netty endpoint reference
+23 | DAGScheduler | DAG stage
+24 | TaskSchedulerImpl | Schedule resources pool to tasks
+25 | TaskSetManager | Manage task set on job scheduler
+26 | MapOutputTrackerMasterEndpoint | Request and response between Map & Reduce
+27 | MapOutputTrackerMaster | Size of output status
+28 | TransportClientFactory | Execution URL stage
+29 | ApplicationName | Application information
+30 | TorrentBroadcast | Destroying replicated broadcast
+31 | MapPartitionsRDD | Removing Resilient Distributed Datasets
+32 | ContextCleaner | Cleaned context when shuffle and RDD
+33 | OutputCommitCoordinator | Commit output stage 
+34 | ShutdownHookManager | Deleting sever /tmp
+
+
 ### There are 2 Docker containers
 * [Docker container on Apache Spark cluster](https://hub.docker.com/r/kundjanasith/kitwai_engine/)
 * [Docker container on Cluster management node](https://hub.docker.com/r/kundjanasith/kitwai_webui/)
