@@ -1,4 +1,4 @@
-## Auto-Scaling on Apache Spark using Deep Reinforcement Learning
+## To Optimize an Auto-Scaling on Apache Spark using Deep Reinforcement Learning
 
 ### Directory structure
 ```
